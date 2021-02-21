@@ -1,6 +1,6 @@
 # ReadME- Generator
 
-https://opensource.org/licenses/MIT
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 * Generating a read me generator by asking questions using inquirer and node
