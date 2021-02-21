@@ -67,10 +67,10 @@ inquirer
            
   ])
 
-  .then((response) => {
+  .then((answers) => {
 
     const readMeContent = `
-    # ${response.project_name}
+    # ${answers.project_name}
 
   ## Table of Contents
   * [Description](#Description)
@@ -83,31 +83,32 @@ inquirer
   * [Questions](#questions)
   
   ## Description: 
-     ${response.description}
+     ${answers.description}
 
   ## Installation
-     ${response.installation}
+     ${answers.installation}
   ## Usage
-     ${response.usage}
+     ${answers.usage}
   ## Credits
-     ${response.credit}
+     ${answers.credit}
   ## License
      This project is licensed under ${response.license}
   ## Contributing
-     ${response.contributing}
+     ${answers.contributing}
   ## Tests
         How to run tests:
-        ${response.test_instructions}
+        ${answers.test_instructions}
 
   ## Questions
      *For futher questions check out my github profile:
-     https://github.com/${response.username}
+     https://github.com/${answers.username}
      
-     * I can also be reached at ${response.email}
+     * I can also be reached at ${answers.email}
 
      `;
-  },
+  
 
   fs.writeFile(readme, readMeContent, (err) =>
             err ? console.log(err) : console.log('Success!')
-        ))
+        );
+    });
