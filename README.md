@@ -1,16 +1,37 @@
-# README-Generator
 
-## Description
-* Creating a README generator file with npm inquirer package
+    # undefined
 
-![license](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
+  ## Table of Contents
+  * [Description](#Description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Description: 
+     creating a dynamically read me
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+  ## Installation
+     using inquirer
+  ## Usage
+     undefined
+  ## Credits
+     bjorn
+  ## License
+     This project is licensed under 
+  ## Contributing
+     bjorn
+  ## Tests
+        How to run tests:
+        undefined
 
+  ## Questions
+     *For futher questions check out my github profile:
+     https://github.com/bjorn
+     
+     * I can also be reached at byourey@gmail.com
 
+     
