@@ -43,6 +43,12 @@ inquirer
       },
       {
         type: 'input',
+        message: 'Is there a smaple test?',
+        name: 'test',
+      },
+        
+      {
+        type: 'input',
         message: 'What is your Github username?',
         name: 'username',
       },
@@ -74,9 +80,6 @@ inquirer
 
   ## Installation
   ${answers.installation}
-
-  ## Usage
-  ${answers.usage}
 
   ## Credits
   ${answers.credit}
