@@ -57,10 +57,10 @@ inquirer
   .then((answers) => {
 
     const readMe = `
-    # ${answers.project_name}
+    # ${answers.title}
 
+ 
   ## Table of Contents
-  * [Description](#Description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
