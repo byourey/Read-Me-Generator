@@ -1,12 +1,13 @@
 # ReadME- Generator
 
+https://opensource.org/licenses/MIT
+
 ## Description
 * Generating a read me generator by asking questions using inquirer and node
 
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Contributing](#contributing)
   * [Questions](#questions)
 
@@ -16,15 +17,20 @@
   ## Usage
   * Once all questions are answered this will generate a .md file
 
-  ## License
-  * https://img.shields.io/cocoapods/l/Lic
-
   ## Contributing
   * Contact me for information
+
+  ## Video
+  * 
 
   ## Questions
   * Github - https://github.com/byourey
   * Email - byourey7783@gmail.com
+
+  ## Screenshot of the read me generator
+  ![Image of the app] (https://github.com/byourey/Read-Me-Generator/blob/Main/Images/)
+
+
 
   
   
