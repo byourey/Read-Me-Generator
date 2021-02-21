@@ -80,6 +80,8 @@ inquirer
      ${answers.credit}
   ## License
      This project is licensed under ${answers.license}
+     ![license](https://img.shields.io/badge/license-${answers.license}-blue.svg "License Badge")
+
   ## Contributing
      ${answers.contributing}
   ## Tests
