@@ -92,7 +92,7 @@ inquirer
   ## Credits
      ${answers.credit}
   ## License
-     This project is licensed under ${response.license}
+     This project is licensed under ${answers.license}
   ## Contributing
      ${answers.contributing}
   ## Tests
