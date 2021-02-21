@@ -57,7 +57,7 @@ inquirer
   .then((answers) => {
 
     const readMe = `
-    # ${answers.title}
+# ${answers.title}
 
  
   ## Table of Contents
@@ -70,27 +70,29 @@ inquirer
   * [Questions](#questions)
   
   ## Description: 
-     ${answers.description}
+  ${answers.description}
 
   ## Installation
-     ${answers.installation}
+  ${answers.installation}
+
   ## Usage
-     ${answers.usage}
+  ${answers.usage}
+
   ## Credits
-     ${answers.credit}
+  ${answers.credit}
+
   ## License
-     This project is licensed under ${answers.license}
-     ![license](https://img.shields.io/badge/license-${answers.license}-blue.svg "License Badge")
+  ${answers.license}
 
   ## Contributing
-     ${answers.contributing}
+  ${answers.contributing}
+
   ## Tests
-        How to run tests:
-        ${answers.test}
+  ${answers.test}
 
   ## Questions
      *For futher questions check out my github profile:
-     https://github.com/${answers.username}
+      https://github.com/${answers.username}
      
      * I can also be reached at ${answers.email}
 
