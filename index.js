@@ -108,7 +108,7 @@ inquirer
      `;
   
 
-    fs.writeFile(readme, readMeContent, (err) =>
+    fs.writeFile('readme.md', readMeContent, (err) =>
                 err ? console.log(err) : console.log('Success!')
             );
         });
