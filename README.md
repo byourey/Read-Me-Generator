@@ -17,7 +17,7 @@
   * Once all questions are answered this will generate a .md file
 
   ## License
-  * https://img.shields.io/badge/license-MIT-blue.svg
+  * ![license]https://img.shields.io/badge/license-MIT-blue.svg
 
   ## Contributing
   * Contact me for information
