@@ -1,5 +1,11 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const requiredQuestion = async (input) => {
+    if (input === "") {
+       return 'This question is required';
+    }
+    return true;
+  };
 
 // Function created to ask questions
 inquirer
@@ -8,21 +14,25 @@ inquirer
         type: 'input',
         message: 'What is the name of your project?',
         name: 'title',
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'Please enter a description of your project',
         name: 'description',
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'What are the installation instructions for your project?',
-        name: 'installation',  
+        name: 'installation',
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'Who do you credit this work to?',
         name: 'credit',
+        validate: requiredQuestion,
       },
       {
         type: 'checkbox',
@@ -33,22 +43,26 @@ inquirer
             'GNU',
             'ISC',
             'MIT',
-        ]
+        ],
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'Guidelines for other developers to contribute.',
         name: 'contributing',
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'What is your Github username?',
         name: 'username',
+        validate: requiredQuestion,
       },
       {
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
+        validate: requiredQuestion,
       },
            
   ])
