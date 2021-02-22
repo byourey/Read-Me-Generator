@@ -1,5 +1,5 @@
 
-# Read Me Generator File
+# Read Me Generator
 
  
   ## Table of Contents
@@ -12,13 +12,10 @@
   * [Questions](#questions)
   
   ## Description: 
-  Creating a dynamic read me file
+  Creating a dynamic read me generator in node using inquirer
 
   ## Installation
   using inquirer
-
-  ## Usage
-  undefined
 
   ## Credits
   My Instructors
@@ -27,14 +24,14 @@
   Apache 2.0
 
   ## Contributing
-  No guidelines, anyone can contribute
+  None
 
   ## Tests
-  undefined
+  None
 
   ## Questions
      *For futher questions check out my github profile:
-      https://github.com/https://github.com/byourey
+      https://github.com/byourey
      
      * I can also be reached at byourey7783@gmail.com
 

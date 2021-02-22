@@ -21,7 +21,7 @@
   * Contact me for information
 
   ## Video
-  * 
+  * <a href="https://screencast-o-matic.com/watch/crnr3AWVAK">View My Video</a>
 
   ## Questions
   * Github - https://github.com/byourey
